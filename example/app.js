@@ -5,11 +5,6 @@ var server1 = koa();
 var server2 = koa();
 var server = koa();
 
-server.use(function *(next){
-    this.body = 'server';
-    yield next;
-})
-
 server1.use(function *(next){
     this.body = 'api server';
 });
@@ -25,7 +20,11 @@ server.use(vhost([
     },{
     host: /\d{3}\.example\.com/,
     app: server2
-}
+    }
 ]));
+
+server.use(function *(next){
+    this.body = 'default server';
+});
 
 server.listen(3000);
