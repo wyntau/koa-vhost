@@ -1,0 +1,23 @@
+{
+  "name": "koa-vhost",
+  "version": "0.0.1",
+  "description": "vhost for koa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "koa",
+    "vhost"
+  ],
+  "author": "Jeremial",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jeremial/koa-vhost"
+  },
+  "bugs": {
+    "url": "https://github.com/Jeremial/koa-vhost/issues"
+  },
+  "homepage": "https://github.com/Jeremial/koa-vhost"
+}
