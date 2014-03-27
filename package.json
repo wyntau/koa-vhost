@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Jeremial/koa-vhost/issues"
   },
-  "homepage": "https://github.com/Jeremial/koa-vhost"
+  "homepage": "https://github.com/Jeremial/koa-vhost",
+  "devDependencies": {
+    "koa": "^0.5.2"
+  }
 }
