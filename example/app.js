@@ -5,6 +5,11 @@ var server1 = koa();
 var server2 = koa();
 var server = koa();
 
+server.use(function *(next){
+    this.body = 'server';
+    yield next;
+})
+
 server1.use(function *(next){
     this.body = 'api server';
 });
