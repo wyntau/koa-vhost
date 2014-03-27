@@ -31,6 +31,17 @@ server.use(vhost([
 
 server.listen(3000);
 ```
+Then write to your `/etc/hosts`
+```
+127.0.0.1 api.example.com
+127.0.0.1 100.example.com
+```
+
+Then
+
+request `api.example.com:3000` will return `api server`;
+
+request `100.example.com:3000` will return `3 number server`;
 
 ### License
 MIT
