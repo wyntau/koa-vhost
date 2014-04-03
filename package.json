@@ -1,6 +1,6 @@
 {
   "name": "koa-vhost",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "description": "vhost for koa",
   "main": "index.js",
   "scripts": {
@@ -25,6 +25,6 @@
   },
   "dependencies": {
     "koa-compose": "^2.2.0",
-    "jistype": "~0.0.3"
+    "jistype": "~0.0.4"
   }
 }
