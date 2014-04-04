@@ -2,6 +2,10 @@
 
 vhost for koajs
 
+### Install
+
+    npm install koa-vhost
+
 ### Usage
 ```js
 var koa = require('koa');
