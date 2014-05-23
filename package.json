@@ -1,6 +1,6 @@
 {
   "name": "koa-vhost",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "vhost for koa",
   "main": "index.js",
   "scripts": {

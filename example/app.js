@@ -10,22 +10,27 @@ var server5 = koa();
 
 server1.use(function *(next) {
     this.body = 'server1';
+    yield next;
 });
 
 server2.use(function *(next) {
     this.body = 'server2';
+    yield next;
 });
 
 server3.use(function *(next) {
     this.body = 'server3';
+    yield next;
 });
 
 server4.use(function *(next) {
     this.body = 'server4';
+    yield next;
 });
 
 server5.use(function *(next) {
     this.body = 'server5';
+    yield next;
 });
 
 server.use(vhost('s1.example.com', server1));
@@ -47,6 +52,7 @@ server.use(vhost([{
 
 server.use(function * (next) {
     this.body = 'default server';
+    yield next;
 });
 
 server.listen(3000, function() {
