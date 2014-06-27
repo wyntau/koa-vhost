@@ -1,4 +1,5 @@
 var koa = require('koa');
+var favi = require('koa-favi');
 var vhost = require('..');
 
 var server = koa();
@@ -32,6 +33,8 @@ server5.use(function *(next) {
     this.body = 'server5';
     yield next;
 });
+
+server.use(favi());
 
 server.use(vhost('s1.example.com', server1));
 
