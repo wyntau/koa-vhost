@@ -1,6 +1,6 @@
 {
   "name": "koa-vhost",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "vhost for koa",
   "main": "index.js",
   "scripts": {
@@ -10,16 +10,16 @@
     "koa",
     "vhost"
   ],
-  "author": "Jeremial",
+  "author": "Treri",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Jeremial/koa-vhost"
+    "url": "https://github.com/Treri/koa-vhost"
   },
   "bugs": {
-    "url": "https://github.com/Jeremial/koa-vhost/issues"
+    "url": "https://github.com/Treri/koa-vhost/issues"
   },
-  "homepage": "https://github.com/Jeremial/koa-vhost",
+  "homepage": "https://github.com/Treri/koa-vhost",
   "devDependencies": {
     "koa": "^0.5.2"
   },
